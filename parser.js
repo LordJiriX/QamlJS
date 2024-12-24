@@ -8,6 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CURRENT_QAML_VERSION = "1.0.0";
+const CURRENT_QAMLJS_VERSION = "1.0 alfa";
 
 function parseQAMLFile(filePath) {
     const input = fs.readFileSync(filePath, 'utf8');
