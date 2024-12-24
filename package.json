@@ -1,0 +1,16 @@
+{
+  "name": "qamljs",
+  "version": "1.0.0",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "qamljs:version": "echo \"1.0.0\" && exit 1",
+    "qamljs:author": "echo \"LordJiriX\" && exit 1"
+  },
+  "author": "LordJiriX",
+  "license": "All Rights Reserved",
+  "description": "QAML parser for NodeJS",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
